@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
  * PACKAGE     : com.example.demo
  * CREATE DATE : 2018-05-07
  * AUTHOR      : shouhan
- * 文件描述     :
+ * 文件描述     : jenkins测试项目
  */
 @RestController
 @RequestMapping("/test")
