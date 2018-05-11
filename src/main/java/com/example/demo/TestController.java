@@ -16,7 +16,7 @@ public class TestController {
     @RequestMapping("test")
     public String test() {
         System.out.println("jenkins启动成功。。。");
-        return "jenkins启动成功。。。";
+        return "jenkins修改重新部署测试成功";
     }
 
 }
