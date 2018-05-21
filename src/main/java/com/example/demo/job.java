@@ -23,10 +23,6 @@ import java.io.IOException;
 @Component
 public class job {
 
-    public static void main(String[] args) {
-        sendRobotMsg("小伙该打卡了...");
-    }
-
     //每天早上8：50提醒
     @Scheduled(cron="0 50 8 * * ? ")
     public void work(){
